@@ -1,0 +1,8 @@
+import numpy as np
+a=np.array(['python','java','Priyanshi','PS'])
+c=np.char.capitalize(a)
+l=np.char.lower(a)
+u=np.char.upper(a)
+print(f'capitalized {c}')
+print(f'uppered case {u}')
+print(f'lowered case {l}')
